@@ -1,0 +1,91 @@
+p.caption {
+  color: #777;
+  margin-top: 10px;
+}
+p code {
+  white-space: inherit;
+}
+pre {
+  word-break: normal;
+  word-wrap: normal;
+}
+pre code {
+  white-space: inherit;
+}
+
+/* This makes the horizontal space occupied by the content wider when using gitbook */
+
+/*.book .book-body .page-wrapper .page-inner {
+  max-width: 1100px;
+}
+*/
+
+
+/* These change the size of the sidebar with the TOC*/
+/*
+.book .book-summary {
+  width: 400px;
+  position:absolute;
+  top:0;
+  left:-400px;
+}
+
+.book.with-summary .book-header.fixed {
+    left: 400px;
+}
+
+.book.with-summary .book-body {
+    left: 400px;
+}
+*/
+
+.calbox {
+  padding: 1em 1em 1em 1em;
+  background: white;
+  color: black;
+  border: 2px solid blue;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.rmdcaution, .rmdimportant, .rmdnote, .rmdtip, .rmdwarning {
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 10px;
+  background: #f5f5f5 5px center/3em no-repeat;
+}
+
+.greybox {
+  padding: 1em;
+  background: lightgrey;
+  color: black;
+  border: 2px solid red;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.blackbox {
+  padding: 1em;
+  background: black;
+  color: white;
+  border: 2px solid orange;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.bluebox {
+  padding: 1em;
+  background: white;
+  color: black;
+  border: 2px solid navy;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+
+
+

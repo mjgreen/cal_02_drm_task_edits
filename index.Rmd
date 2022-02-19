@@ -1,0 +1,50 @@
+--- 
+title: "CaL Deese-Roediger-McDermott task edits"
+subtitle: "for week ..."
+author: "the CaL Teaching Team"
+date: "`r format(Sys.time(), '%A %d %B %Y at %X')`"
+site: bookdown::bookdown_site
+documentclass: book
+#bibliography: [book.bib, packages.bib]
+url: your book url like https://bookdown.org/yihui/bookdown
+cover-image: icons/S2UY6Rv7br.png
+description: |
+  This is a minimal example of using the bookdown package to write a book.
+  The HTML output format for this example is bookdown::gitbook,
+  set in the _output.yml file.
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+---
+
+```{r, eval=TRUE, echo=FALSE}
+if(file.exists('DrmTaskCopy.zip')){file.copy('DrmTaskCopy.zip', 'docs/DrmTaskCopy.zip', overwrite = TRUE)}
+```
+
+# Challenges
+
+## Before you start
+
+:::: {.bluebox}
+::: {.center}
+**NOTICE!**
+:::
+Make sure you have installed `PsychoPy` on your own computer from this link before attempting the challenges: [<ins>**PsychoPy download**</ins>](https://www.psychopy.org/download.html) 
+::::
+
+:::: {.bluebox}
+::: {.center}
+**NOTICE!**
+:::
+Make sure you have downloaded and unzipped the following copy of the experiment before attempting the challenges: [<ins>**DrmTaskCopy.zip**</ins>](./DrmTaskCopy.zip) 
+::::
+
+
+## List of challenges
+
+:::: {.bluebox}
+::: {.center}
+**Team challenges**
+:::
+1. Add feedback for the recall phase: [<ins>**solution**</ins>](#feedback)
+1. ~~Change the buttons for “old” and “new” from Z and M to the left (old) and right (new) arrow keys.~~
+::::

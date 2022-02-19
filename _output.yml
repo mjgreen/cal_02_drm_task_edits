@@ -1,0 +1,20 @@
+bookdown::gitbook:
+  css: style.css
+  config:
+    toc:
+      collapse: subsection
+      scroll_highlight: true
+      before: null
+      after: null
+    toolbar:
+      position: static
+    edit : null
+    download: null
+    search:
+      engine: lunr
+      options: null
+    fontsettings:
+      theme: white
+      family: sans
+      size: 2
+    sharing: null
