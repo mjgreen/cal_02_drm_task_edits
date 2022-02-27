@@ -16,27 +16,24 @@ link-citations: yes
 github-repo: rstudio/bookdown-demo
 ---
 
-```{r, eval=TRUE, echo=FALSE}
-if(file.exists('DrmTaskCopy.zip')){file.copy('DrmTaskCopy.zip', 'docs/DrmTaskCopy.zip', overwrite = TRUE)}
-```
 
 # Challenges
 
+```{r, eval=TRUE, echo=FALSE, message=F}
+file.copy('DRMTaskCopy.zip', 'docs/DRMTaskCopy.zip', overwrite = TRUE)
+```
+
 ## Before you start
 
-:::: {.bluebox}
-::: {.center}
-**NOTICE!**
-:::
-Make sure you have installed `PsychoPy` on your own computer from this link before attempting the challenges: [<ins>**PsychoPy download**</ins>](https://www.psychopy.org/download.html) 
-::::
+Make sure you have installed `PsychoPy2021.2.3` on your own computer from one of these links before attempting the challenges: 
 
-:::: {.bluebox}
-::: {.center}
-**NOTICE!**
-:::
-Make sure you have downloaded and unzipped the following copy of the experiment before attempting the challenges: [<ins>**DrmTaskCopy.zip**</ins>](./DrmTaskCopy.zip) 
-::::
+* [<ins>**PsychoPy download for Windows**</ins>](https://github.com/psychopy/psychopy/releases/download/2021.2.3/StandalonePsychoPy-2021.2.3-win64.exe)
+* [<ins>**PsychoPy download for Mac**</ins>](https://github.com/psychopy/psychopy/releases/download/2021.2.3/StandalonePsychoPy-2021.2.3-macOS.dmg)
+
+Make sure you have downloaded and unzipped the following copy of the experiment before attempting the challenges: 
+
+* [<ins>**DRMTaskCopy.zip**</ins>](./DRMTaskCopy.zip) 
+
 
 
 ## List of challenges

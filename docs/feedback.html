@@ -108,6 +108,15 @@ set in the _output.yml file.</p>" />
 <li>First, locate the routine for the <code>recall</code> phase.</li>
 </ol>
 <p><img src="screenshots/s1.png" style="width:100.0%" /></p>
+<p>Then click on <code>recall_response</code> and select the <code>data</code> tab to see that we are recording accuracy for this response with reference to a variable called <code>correct_response</code>.</p>
+<p><img src="screenshots/s2.png" style="width:100.0%" /></p>
+<p>This gives us access to a variable called <code>recall_response.corr</code> which is <code>0</code> in the event that the trial was incorrect and <code>1</code> in the event that the trial was answered correctly.</p>
+<p>Now we can insert a routine that presents feedback if the current phase is <code>recall</code></p>
+<p>Click on <code>insert routine</code>, and name it <code>recall_feedback</code>.</p>
+<p>Use the cursor to place the routine just after <code>recall</code>.</p>
+<p>Add a text component that says “Correct” and make it start on the condition that <code>recall_response.corr == 1</code>.</p>
+<p>Add a text component that says “Wrong!” and make it start on the condition that <code>recall_response.corr == 0</code>.</p>
+<p>Finally, add a code compnent that says, effectively, <em>“skip this routine if we are in an exposure trial”</em></p>
 
 </div>
             </section>
